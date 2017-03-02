@@ -1,0 +1,11 @@
+﻿  OpenGL.cpp
+e:\opengl\opengl\opengl.cpp(190): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+e:\opengl\opengl\opengl.cpp(282): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\opengl\opengl\opengl.cpp(283): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\opengl\opengl\opengl.cpp(287): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+e:\opengl\opengl\opengl.cpp(288): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+e:\opengl\opengl\opengl.cpp(290): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\opengl\opengl\opengl.cpp(291): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\opengl\opengl\opengl.cpp(299): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  OpenGL.vcxproj -> E:\OpenGL\Debug\OpenGL.exe
+  OpenGL.vcxproj -> E:\OpenGL\Debug\OpenGL.pdb (Partial PDB)
