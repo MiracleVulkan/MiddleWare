@@ -1,0 +1,5 @@
+/Debug/*.ilk
+*.pdb
+*.log
+*.obj
+*.idb
