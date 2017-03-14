@@ -29,6 +29,12 @@
     <ClInclude Include="Camera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Shader.vs">
@@ -47,6 +53,12 @@
       <Filter>Shader Files</Filter>
     </None>
     <None Include="lamp.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="model_loading.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="model_loading.vs">
       <Filter>Shader Files</Filter>
     </None>
   </ItemGroup>
