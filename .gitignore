@@ -1,7 +1,1 @@
-/Debug/*.ilk
-*.pdb
-*.log
-*.obj
-*.idb
-*.tlog
-*.lastbuildstate
+Debug
