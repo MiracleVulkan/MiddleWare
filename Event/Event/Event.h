@@ -9,7 +9,7 @@
 #include <mutex>
 #include <utility>
 #include <vector>
-#include "assert.h"
+#include <assert.h>
 #include "InstanceFunction.h"
 #include "IEvent.h"
 
@@ -74,7 +74,6 @@ namespace core
 		{
 			if (m_traversing)
 			{
-				//assert(false);
 				return;
 			}
 

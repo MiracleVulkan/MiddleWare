@@ -1,15 +1,17 @@
 #version 330 core
-in vec3 ourColor;
-in vec2 TexCoord;
-
 out vec4 color;
 
-// Texture samplers
-uniform sampler2D ourTexture1;
-uniform sampler2D ourTexture2;
+float near = 1.0; 
+float far  = 100.0; 
+  
+float LinearizeDepth(float depth) 
+{
+    float z = depth * 2.0 - 1.0; // Back to NDC 
+    return (2.0 * near * far) / (far + near - z * (far - near));	
+}
 
 void main()
-{
-	// Linearly interpolate between both textures (second texture is only slightly combined)
-	color = mix(texture(ourTexture1, TexCoord), texture(ourTexture2, TexCoord), 0.2);
+{             
+    float depth = LinearizeDepth(gl_FragCoord.z) / far; // divide by far for demonstration
+    color = vec4(vec3(depth), 1.0f);
 }
