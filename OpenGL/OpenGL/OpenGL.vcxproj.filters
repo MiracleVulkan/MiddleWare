@@ -61,5 +61,8 @@
     <None Include="model_loading.vs">
       <Filter>Shader Files</Filter>
     </None>
+    <None Include="singleColor.fs">
+      <Filter>Shader Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

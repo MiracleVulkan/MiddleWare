@@ -132,6 +132,7 @@
     <None Include="Shader.vs" />
     <None Include="lamp.frag" />
     <None Include="lamp.vs" />
+    <None Include="singleColor.fs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
