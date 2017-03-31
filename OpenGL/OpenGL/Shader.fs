@@ -1,14 +1,12 @@
 #version 330 core
-in vec2 TexCoords;
+in vec3 ourColor;
+in vec2 TexCoord;
 
 out vec4 color;
 
-uniform sampler2D texture1;
+uniform sampler2D ourTexture;
 
 void main()
-{             
-    vec4 textcolor = texture(texture1, TexCoords);
-	if(textcolor.a < 0.1)
-	discard;
-	color = textcolor;
+{
+    color = texture(ourTexture, TexCoord);
 }

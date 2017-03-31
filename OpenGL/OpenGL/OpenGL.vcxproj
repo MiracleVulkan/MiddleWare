@@ -124,15 +124,26 @@
     <ClInclude Include="Shader.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Advanced\ubo_blue.frag" />
+    <None Include="Advanced\ubo_green.frag" />
+    <None Include="Advanced\ubo_red.frag" />
+    <None Include="Advanced\advanced.vs" />
+    <None Include="Advanced\ubo_yellow.frag" />
+    <None Include="instancing.frag" />
+    <None Include="instancing\instancing.vs" />
     <None Include="lighting.frag" />
     <None Include="lighting.vs" />
     <None Include="model_loading.frag" />
     <None Include="model_loading.vs" />
+    <None Include="screen.frag" />
+    <None Include="screen.vs" />
     <None Include="Shader.fs" />
     <None Include="Shader.vs" />
     <None Include="lamp.frag" />
     <None Include="lamp.vs" />
     <None Include="singleColor.fs" />
+    <None Include="skyBox.frag" />
+    <None Include="skyBox.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
