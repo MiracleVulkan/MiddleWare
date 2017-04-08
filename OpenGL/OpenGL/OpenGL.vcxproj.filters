@@ -16,6 +16,12 @@
     <Filter Include="Shader Files">
       <UniqueIdentifier>{3437d314-ca8a-4f00-9b9b-3a6107daef78}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Shader Files\Advanced">
+      <UniqueIdentifier>{8bc9d69e-28f3-4ca5-bd62-80dac0597c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\instancing">
+      <UniqueIdentifier>{babaf66d-0456-45be-8285-b8f55fb6bf28}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OpenGL.cpp">
@@ -60,6 +66,42 @@
     </None>
     <None Include="model_loading.vs">
       <Filter>Shader Files</Filter>
+    </None>
+    <None Include="singleColor.fs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="screen.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="screen.vs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="skyBox.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="skyBox.vs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Advanced\advanced.vs">
+      <Filter>Shader Files\Advanced</Filter>
+    </None>
+    <None Include="Advanced\ubo_red.frag">
+      <Filter>Shader Files\Advanced</Filter>
+    </None>
+    <None Include="Advanced\ubo_blue.frag">
+      <Filter>Shader Files\Advanced</Filter>
+    </None>
+    <None Include="Advanced\ubo_green.frag">
+      <Filter>Shader Files\Advanced</Filter>
+    </None>
+    <None Include="Advanced\ubo_yellow.frag">
+      <Filter>Shader Files\Advanced</Filter>
+    </None>
+    <None Include="instancing.frag">
+      <Filter>Shader Files\instancing</Filter>
+    </None>
+    <None Include="instancing\instancing.vs">
+      <Filter>Shader Files\instancing</Filter>
     </None>
   </ItemGroup>
 </Project>

@@ -61,7 +61,7 @@ public:
 		this->updateCameraVectors();
 	}
 
-	// Returns the view matrix calculated using Eular Angles and the LookAt Matrix
+	// Returns the view matrix calculated using Eular Angles and the LookAt Matrix	
 	glm::mat4 GetViewMatrix()
 	{
 		return glm::lookAt(this->Position, this->Position + this->Front, this->Up);
@@ -79,6 +79,7 @@ public:
 			this->Position -= this->Right * velocity;
 		if (direction == RIGHT)
 			this->Position += this->Right * velocity;
+		this->Position.y = 0.0;
 	}
 
 	// Processes input received from a mouse input system. Expects the offset value in both the x and y direction.
