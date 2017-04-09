@@ -6,8 +6,9 @@
 #include <QWidget>
 #include <QOpenGLWidget>
 #include <QOpenGLShaderProgram>
-
 #include <iostream>
+#include "Shader.h"
+#include <memory>
 
 class Widget : public QOpenGLWidget
 {
@@ -22,6 +23,7 @@ public:
     void paintGL();
 private:
     QOpenGLShaderProgram program;
+	std::shared_ptr<Shader> m_shader;
 };
 
 #endif // WIDGET_H
