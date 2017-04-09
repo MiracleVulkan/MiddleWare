@@ -18,12 +18,15 @@ public:
     Widget(QWidget *parent = 0);
     ~Widget();
 
-    void initializeGL();
-    void resizeGL(int w, int h);
-    void paintGL();
+	virtual void initializeGL();
+	virtual void resizeGL(int w, int h);
+    virtual void paintGL();
 private:
     QOpenGLShaderProgram program;
 	std::shared_ptr<Shader> m_shader;
+	GLuint m_texture1;
+	GLuint m_texture2;
+	GLuint m_VAO;
 };
 
 #endif // WIDGET_H
